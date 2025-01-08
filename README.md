@@ -1,0 +1,1 @@
+This repository demonstrates a common TypeScript type error related to handling 'undefined' values when a function expects either a string or null.  The error occurs because 'undefined' is not assignable to 'string | null'.  The solution shows how to address this by either explicitly checking for 'undefined' or widening the function's parameter type.
